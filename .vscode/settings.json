@@ -1,0 +1,20 @@
+{
+  // Format on save with Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // Turn off VSCode linters for ESLint handled files
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": true,
+  // Run ESLint on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Use project's local dependencies
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
